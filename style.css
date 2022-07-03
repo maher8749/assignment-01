@@ -24,6 +24,9 @@
     width: 600px;
 
 }
+.nav-link{
+    font-size: 22px;
+}
 h1{
     overflow: hidden;
     font-size: 40px;
