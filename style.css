@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* Header section  */
+#header{
+    background-color: white;
+    height: 92vh;
+    overflow: hidden;
+}
+.header-text{
+    overflow: hidden;
+    margin-top: 70px;
+}
+.header-img1{
+    height: 100%;
+    width: 100%;
+}
+.header-img2{
+    height: 300px;
+    width: 600px;
+
+}
+h1{
+    overflow: hidden;
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    color: black;
+    overflow: hidden;
+}
+span{
+    color: rgb(231, 97, 63);
+    font-size: 45px;
+    font-weight: 700;
+}
+.btn{
+    color: white;
+    background-color: rgb(231, 97, 63);
+}
+
+/* Project sectin  */
+#project{
+    margin: 5% 0 0 0;
+    background-color: rgb(230, 223, 223);
+    overflow: hidden;
+    height: 800px;
+}
+.project-text{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    margin: 10% 0;
+    
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+h5{
+    overflow: hidden;
+    color: black;
+    font-weight: 700;
+    
+}
+.cards{
+    margin: 10% 0 20% 0; 
+    overflow: hidden; 
+    
+}
+.card{
+    transition: all 1s ease;
+}
+.card:hover{
+    transform: translate(5px, -5px);
+    box-shadow: 5px 10px 10px rgb(112, 109, 109);
+}
+
+
+
+/* Work inquiry section  */
+#inquiry{
+    height: 300px;
+    overflow: hidden;
+}
+.work-inquiry{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    height: 130px;
+    width: 60%;
+    margin: 7% auto;
+    border-radius: 21px;
+    position: relative;
+}
+.in-text{
+    position: absolute;
+    top: 44px;
+    left: 43px;
+    font-size: 31px;
+}
+.in-btn{
+    position: absolute;
+    right: 30px;
+    top: 47px;
+}
+
+/* Contact me section  */
+#contact-me{
+    height: 200px;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+}
+.contact-text{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 3% auto;
+}
+hr{
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+}
+.contact-btn{
+    position: absolute;
+    left: 45%;
+    margin-top: 10px;
+}
+.contact-btn:hover{
+    color: white;
+}
+
+ /* Form Section / */
+#form{
+    height: 430px;
+    text-align: center;
+    overflow: hidden;
+ }
+input{
+    width: 30%;
+ }
+.form-text{
+    overflow: hidden;
+    font-size: 40px;
+    margin: 6% 0 3% 0;
+    color: black;
+}
+
+
+/* footer section  */
+#footer{
+    height: 350px;
+    text-align: center;
+    background-color: rgb(230, 223, 223);
+    
+}
+h3{
+    overflow: hidden;
+    margin-bottom: 30px
+}
+.footer-item{
+    margin: 10% 0 0 0;
+}
+i{
+    font-size: 30px;
+    cursor: pointer;
+    margin: 10px 10px;
+}
